@@ -8,7 +8,7 @@ img_url = './public/image.jpg'
 
 # find the horizontal projection of all the rows in the image
 # rotate the image between angles -10 to 10 degrees 
-# and find the angle which gives the least median of horizontal projection
+# and find the angle which gives the highest median of horizontal projection
 
 def horizontal_projections(sobel_image):
   sum_of_cols = []
